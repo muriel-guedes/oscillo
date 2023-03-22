@@ -1,0 +1,12 @@
+[[example]]
+name = "basic"
+path = "./basic.rs"
+
+[package]
+name = "oscillo-examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+oscillo-core = { path = "../core" }

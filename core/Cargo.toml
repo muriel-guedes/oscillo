@@ -1,0 +1,19 @@
+[package]
+name = "oscillo-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.28.2"
+log = "0.4.17"
+futures = "0.3.27"
+bytemuck = { version = "1.13.1", features = ["derive"] }
+wgpu = "0.15.1"
+backtrace = "0.3.67"
+chrono = "0.4.23"
+env_logger = "0.10.0"
+image = "0.24.5"
+
+[features]
+default = ["screenshot"]
+screenshot = []
